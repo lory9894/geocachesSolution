@@ -3,69 +3,6 @@ import sys
 from constraint import *
 from lxml import etree as ET
 
-attributes_icons = {
-"Wheelchair accessible" : "wheelchair",
-"Recommended for kids" : "kids",
-"Stroller accessible" : "stroller",
-"Dogs" : "dogs",
-"Scenic view" : "scenic",
-"Available 24/7" : "available",
-"Takes less than one hour" : "onehour",
-"Park and grab" : "parkngrab",
-"Parking nearby" : "parking",
-"Access/parking fee" : "fee",
-"Yard (private residence)" : "frontyard",
-"Bicycles" : "bicycles",
-"Short hike (<1 km)" : "hike_short",
-"Medium hike (1 km–10 km)" : "hike_med",
-"Long hike (>10 km)" : "hike_long",
-"Significant hike" : "hiking",
-"Teamwork cache" : "teamwork",
-"Night cache" : "nightcache",
-"Recommended at night" : "night",
-"Flashlight required" : "flashlight",
-"UV light required" : "UV",
-"Stealth required" : "stealth",
-"Special tool required" : "s-tool",
-"Recommended for tourists" : "touristOK",
-"Picnic tables nearby" : "picnic",
-"Public restrooms nearby" : "restrooms",
-"Food nearby" : "food",
-"Drinking water nearby" : "water",
-"Public transportation nearby" : "public",
-"Motorcycles" : "motorcycles",
-"Quads" : "quads",
-"Off-road vehicles" : "jeeps",
-"Trucks/RVs" : "rv",
-"Fuel nearby" : "fuel",
-"Horses" : "horses",
-"Camping nearby" : "camping",
-"Campfires" : "campfires",
-"Telephone nearby" : "phone",
-"Seasonal access" : "seasonal",
-"Available in winter" : "winter",
-"Snowmobiles" : "snowmobiles",
-"May require snowshoes" : "snowshoes",
-"May require cross country skis" : "skiis",
-"May require wading" : "wading",
-"May require swimming" : "swimming",
-"Boat required" : "boat",
-"Scuba gear required" : "scuba",
-"Tree climbing required" : "treeclimbing",
-"Climbing gear required" : "rappelling",
-"Difficult climb" : "climbing",
-"Dangerous area" : "danger",
-"Cliffs/falling rocks" : "cliff",
-"Abandoned mine" : "mine",
-"Abandoned structure" : "AbandonedBuilding",
-"Dangerous animals" : "dangerousanimals",
-"Livestock nearby" : "cow",
-"Ticks" : "ticks",
-"Poisonous plants" : "poisonoak",
-"Thorns" : "thorn",
-"Hunting area" : "hunting"
- }
-
 class Cache:
     def __init__(self, gcode, d, t, attributes):
         self.gcode = gcode
@@ -121,12 +58,9 @@ def get_caches_from_gpx(filename):
             if 'Wireless beacon'in attribute_list: attribute_list.remove('Wireless beacon')
             if 'Needs maintenance' in attribute_list: attribute_list.remove('Needs maintenance')
             if 'UV light required' in attribute_list: attribute_list.remove('UV light required')
-            #for attribute in attribute_list:
-            #        attribute_list[attribute_list.index(attribute)] = attributes_icons[attribute]
 
             if len(attribute_list) == 0:
                 continue
-        print(name, d, t, attribute_list)
         caches.append(Cache(name, d, t, attribute_list))
 
     return caches
