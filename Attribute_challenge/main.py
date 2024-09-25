@@ -1,4 +1,5 @@
 import sys
+import printer
 
 from constraint import *
 from lxml import etree as ET
@@ -106,3 +107,4 @@ if __name__ == '__main__':
         complete_matrix[row][column] =f"{sorted_caches_solution[key]} : {sorted_solution[key]}"
 
     print_matrix(complete_matrix)
+    printer.translate_to_image_and_print_on_frame([[sorted_solution[get_index(row,column)] for column in range(matrix_size)]for row in range(matrix_size)])

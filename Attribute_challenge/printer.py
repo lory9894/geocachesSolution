@@ -123,12 +123,15 @@ def print_on_frame(attribute_matrix):
     # Save the result
     background.save('output.png')
 
-
+def translate_to_image_and_print_on_frame(matrix):
+    if not os.path.exists('downloaded_images'):
+        download_images()
+    translated_matrix = translate_matrix(matrix)
+    print_on_frame(translated_matrix)
+    print("Done")
 
 if __name__ == '__main__':
     matrix_size = 10
     attributes_keys = list(attributes_icons.keys())
     possibilities_matrix = [[random.choice(attributes_keys) for column in range(matrix_size)] for row in range(matrix_size)]
-    translated_matrix = translate_matrix(possibilities_matrix)
-    print_matrix(translated_matrix)
-    print_on_frame(translated_matrix)
+    translate_to_image_and_print_on_frame(possibilities_matrix)
