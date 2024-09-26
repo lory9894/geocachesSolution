@@ -25,10 +25,6 @@ def get_index(row, column):
 def get_row_column(index):
     return index // matrix_size, index % matrix_size
 
-def print_matrix(matrix):
-    for row in matrix:
-        print(row)
-
 def get_cache_from_attribute(attribute, d, t):
     for cache in caches:
         if attribute in cache.attributes and cache.d == d and cache.t == t:
@@ -70,7 +66,7 @@ if __name__ == '__main__':
     caches = get_caches_from_gpx(sys.argv[1])
     problem = Problem()
     problem.addConstraint(AllDifferentConstraint())
-    matrix_size = 10
+    matrix_size = 7
     possibilities_matrix = [[set() for column in range(matrix_size)] for row in range(matrix_size)]
     for cache in caches:
         if cache.d <= matrix_size and cache.t <= matrix_size:
@@ -101,10 +97,8 @@ if __name__ == '__main__':
     # Sort the caches_solution dictionary by keys
     sorted_caches_solution = dict(sorted(caches_solution.items()))
 
-    complete_matrix = [[None for column in range(matrix_size)] for row in range(matrix_size)]
-    for key in sorted_caches_solution:
+    for key in sorted_solution:
         row, column = get_row_column(key)
-        complete_matrix[row][column] =f"{sorted_caches_solution[key]} : {sorted_solution[key]}"
+        print(f"{row/2 + 1}/{column/2 + 1}-{sorted_solution[key]}: [{sorted_caches_solution[key]}](https://coord.info/{sorted_caches_solution[key]})")
 
-    print_matrix(complete_matrix)
     printer.translate_to_image_and_print_on_frame([[sorted_solution[get_index(row,column)] for column in range(matrix_size)]for row in range(matrix_size)])

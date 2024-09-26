@@ -56,7 +56,7 @@ attributes_icons = {
 "Climbing gear required" : "rappelling",
 "Difficult climb" : "climbing",
 "Dangerous area" : "danger",
-"Cliffs/falling rocks" : "cliff",
+"Cliff/falling rocks" : "cliff",
 "Abandoned mine" : "mine",
 "Abandoned structure" : "AbandonedBuilding",
 "Dangerous animals" : "dangerousanimals",
@@ -64,7 +64,13 @@ attributes_icons = {
 "Ticks" : "ticks",
 "Poisonous plants" : "poisonoak",
 "Thorns" : "thorn",
-"Hunting area" : "hunting"
+"Hunting area" : "hunting",
+"GeoTour" : "geotour",
+"Bonus cache" : "bonuscache",
+"Challenge cache" : "challengecache",
+"Power trail" : "powertrail",
+"Geocaching.com solution checker" : "hqsolutionchecker",
+"Field puzzle" : "field_puzzle",
  }
 
 def print_matrix(matrix):
@@ -79,21 +85,29 @@ def translate_matrix(matrix):
     return translated_matrix
 
 def download_images():
-    base_url = "https://www.geocaching.com/images/attributes/{}-yes.gif"
+    base_url = "https://www.geocaching.com/images/attributes/{}-yes.png"
     output_dir = "downloaded_images"
 
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
 
+    response = requests.get("https://s3.amazonaws.com/gs-geo-images/c603bb31-6bec-49ca-bca0-5688378fa67b_l.png")
+    if response.status_code == 200:
+        with open(os.path.join(output_dir, "frame.png"), 'wb') as file:
+            file.write(response.content)
+        print(f"Downloaded frame.png")
+    else:
+        print(f"Failed to download frame.png")
+
     for key, value in attributes_icons.items():
         image_url = base_url.format(value)
         response = requests.get(image_url)
         if response.status_code == 200:
-            with open(os.path.join(output_dir, f"{value}.gif"), 'wb') as file:
+            with open(os.path.join(output_dir, f"{value}.png"), 'wb') as file:
                 file.write(response.content)
-            print(f"Downloaded {value}.gif")
+            print(f"Downloaded {value}.png")
         else:
-            print(f"Failed to download {value}.gif")
+            print(f"Failed to download {value}.png")
 
     print("Download complete.")
 
@@ -111,7 +125,7 @@ def print_on_frame(attribute_matrix):
         for col in range(len(attribute_matrix[row])):
             attribute = attribute_matrix[row][col]
             if attribute:
-                attribute_image_path = os.path.join('downloaded_images', f"{attribute}.gif")
+                attribute_image_path = os.path.join('downloaded_images', f"{attribute}.png")
                 if os.path.exists(attribute_image_path):
                     attribute_image = Image.open(attribute_image_path).convert("RGBA")
                     # Resize the attribute image to fit within the cell
