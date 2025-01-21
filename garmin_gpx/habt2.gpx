@@ -1,0 +1,200 @@
+<gpx xmlns="http://www.topografix.com/GPX/1/0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:groundspeak="http://www.groundspeak.com/cache/1/0/1" xmlns:gsak="http://www.gsak.net/xmlv1/6" xmlns:cgeo="http://www.cgeo.org/wptext/1/0" version="1.0" creator="c:geo - http://www.cgeo.org/" xsi:schemaLocation="http://www.topografix.com/GPX/1/0 http://www.topografix.com/GPX/1/0/gpx.xsd http://www.groundspeak.com/cache/1/0/1 http://www.groundspeak.com/cache/1/0/1/cache.xsd http://www.gsak.net/xmlv1/6 http://www.gsak.net/xmlv1/6/gsak.xsd">
+  <wpt lat="45.069967" lon="7.05085">
+    <time>2017-09-03T00:00:00Z</time>
+    <name>GC7BW59</name>
+    <desc>#18 H.A.B.T. - Quasi arrivati</desc>
+    <url>https://coord.info/GC7BW59</url>
+    <urlname>#18 H.A.B.T. - Quasi arrivati</urlname>
+    <sym>Geocache</sym>
+    <type>INFO</type>
+    </wpt>
+  <wpt lat="45.069683" lon="7.00995">
+    <time>2017-09-03T00:00:00Z</time>
+    <name>GC7BW12</name>
+    <desc>#08 H.A.B.T. - La curva</desc>
+    <url>https://coord.info/GC7BW12</url>
+    <urlname>#08 H.A.B.T. - La curva</urlname>
+    <sym>Geocache</sym>
+    <type>INFO</type>
+    </wpt>
+  <wpt lat="45.073033" lon="7.002267">
+    <time>2017-09-03T00:00:00Z</time>
+    <name>GC7BW1R</name>
+    <desc>#09 H.A.B.T. - Il panorama</desc>
+    <url>https://coord.info/GC7BW1R</url>
+    <urlname>#09 H.A.B.T. - Il panorama</urlname>
+    <sym>Geocache</sym>
+    <type>INFO</type>
+    </wpt>
+  <wpt lat="45.071317" lon="6.97605">
+    <time>2017-09-03T00:00:00Z</time>
+    <name>GC7BW34</name>
+    <desc>#11 H.A.B.T. - Caserma Gran Serin</desc>
+    <url>https://coord.info/GC7BW34</url>
+    <urlname>#11 H.A.B.T. - Caserma Gran Serin</urlname>
+    <sym>Geocache</sym>
+    <type>INFO</type>
+    </wpt>
+  <wpt lat="45.061233" lon="6.97465">
+    <time>2017-09-03T00:00:00Z</time>
+    <name>GC7BW45</name>
+    <desc>#14 H.A.B.T. - La tornante</desc>
+    <url>https://coord.info/GC7BW45</url>
+    <urlname>#14 H.A.B.T. - La tornante</urlname>
+    <sym>Geocache</sym>
+    <type>INFO</type>
+    </wpt>
+  <wpt lat="45.072317" lon="7.049333">
+    <time>2017-09-03T00:00:00Z</time>
+    <name>GC7BV9Z</name>
+    <desc>#01 H.A.B.T. - START!</desc>
+    <url>https://coord.info/GC7BV9Z</url>
+    <urlname>#01 H.A.B.T. - START!</urlname>
+    <sym>Geocache</sym>
+    <type>INFO</type>
+    </wpt>
+  <wpt lat="45.07745" lon="7.02235">
+    <time>2017-09-03T00:00:00Z</time>
+    <name>GC7BVXE</name>
+    <desc>#05 H.A.B.T. - Colle della Vecchia</desc>
+    <url>https://coord.info/GC7BVXE</url>
+    <urlname>#05 H.A.B.T. - Colle della Vecchia</urlname>
+    <sym>Geocache</sym>
+    <type>INFO</type>
+    </wpt>
+  <wpt lat="45.073167" lon="7.03315">
+    <time>2017-09-03T00:00:00Z</time>
+    <name>GC7BVWG</name>
+    <desc>#03 H.A.B.T. - Lo strapiombo</desc>
+    <url>https://coord.info/GC7BVWG</url>
+    <urlname>#03 H.A.B.T. - Lo strapiombo</urlname>
+    <sym>Geocache</sym>
+    <type>INFO</type>
+    </wpt>
+  <wpt lat="45.069783" lon="6.970383">
+    <time>2017-09-03T00:00:00Z</time>
+    <name>GC7BW3A</name>
+    <desc>#12 H.A.B.T. - Batteria Gran Serin</desc>
+    <url>https://coord.info/GC7BW3A</url>
+    <urlname>#12 H.A.B.T. - Batteria Gran Serin</urlname>
+    <sym>Geocache</sym>
+    <type>INFO</type>
+    </wpt>
+  <wpt lat="45.062133" lon="6.9967">
+    <time>2017-09-03T00:00:00Z</time>
+    <name>GC7BW4B</name>
+    <desc>#15 H.A.B.T. - Un'altro muro</desc>
+    <url>https://coord.info/GC7BW4B</url>
+    <urlname>#15 H.A.B.T. - Un'altro muro</urlname>
+    <sym>Geocache</sym>
+    <type>INFO</type>
+    </wpt>
+  <wpt lat="45.078883" lon="7.01985">
+    <time>2017-09-03T00:00:00Z</time>
+    <name>GC7BVYB</name>
+    <desc>#06 H.A.B.T. - Stazione eliografica Punta Mezzodì</desc>
+    <url>https://coord.info/GC7BVYB</url>
+    <urlname>#06 H.A.B.T. - Stazione eliografica Punta Mezzodì</urlname>
+    <sym>Geocache</sym>
+    <type>INFO</type>
+    </wpt>
+  <wpt lat="45.070367" lon="6.957017">
+    <time>2016-07-14T00:00:00Z</time>
+    <name>GC6PHG8</name>
+    <desc>Colle dell'Assietta (2472m)</desc>
+    <url>https://coord.info/GC6PHG8</url>
+    <urlname>Colle dell'Assietta (2472m)</urlname>
+    <sym>Geocache</sym>
+    <type>INFO</type>
+    </wpt>
+  <wpt lat="45.072467" lon="7.053117">
+    <time>2015-06-27T00:00:00Z</time>
+    <name>GC5YGAK</name>
+    <desc>Colle delle Finestre</desc>
+    <url>https://coord.info/GC5YGAK</url>
+    <urlname>Colle delle Finestre</urlname>
+    <sym>Geocache</sym>
+    <type>INFO</type>
+    </wpt>
+  <wpt lat="45.073617" lon="7.025817">
+    <time>2017-09-03T00:00:00Z</time>
+    <name>GC7BVX0</name>
+    <desc>#04 H.A.B.T. - Il Dente della Vecchia</desc>
+    <url>https://coord.info/GC7BVX0</url>
+    <urlname>#04 H.A.B.T. - Il Dente della Vecchia</urlname>
+    <sym>Geocache</sym>
+    <type>INFO</type>
+    </wpt>
+  <wpt lat="45.075533" lon="7.016567">
+    <time>2017-08-15T00:00:00Z</time>
+    <name>GC7ATAT</name>
+    <desc>Monte Ciantiplagna</desc>
+    <url>https://coord.info/GC7ATAT</url>
+    <urlname>Monte Ciantiplagna</urlname>
+    <sym>Geocache</sym>
+    <type>INFO</type>
+    </wpt>
+  <wpt lat="45.075017" lon="7.04435">
+    <time>2017-09-03T00:00:00Z</time>
+    <name>GC7BVVT</name>
+    <desc>#02 H.A.B.T. - Il pozzo</desc>
+    <url>https://coord.info/GC7BVVT</url>
+    <urlname>#02 H.A.B.T. - Il pozzo</urlname>
+    <sym>Geocache</sym>
+    <type>INFO</type>
+    </wpt>
+  <wpt lat="45.0706" lon="7.0137">
+    <time>2017-09-03T00:00:00Z</time>
+    <name>GC7BVZW</name>
+    <desc>#07 H.A.B.T. - Il punto più alto</desc>
+    <url>https://coord.info/GC7BVZW</url>
+    <urlname>#07 H.A.B.T. - Il punto più alto</urlname>
+    <sym>Geocache</sym>
+    <type>INFO</type>
+    </wpt>
+  <wpt lat="45.06985" lon="6.98585">
+    <time>2017-09-03T00:00:00Z</time>
+    <name>GC7BW2N</name>
+    <desc>#10 H.A.B.T. - Bivio per la fontana</desc>
+    <url>https://coord.info/GC7BW2N</url>
+    <urlname>#10 H.A.B.T. - Bivio per la fontana</urlname>
+    <sym>Geocache</sym>
+    <type>INFO</type>
+    </wpt>
+  <wpt lat="45.06345" lon="6.9635">
+    <time>2017-09-03T00:00:00Z</time>
+    <name>GC7BW40</name>
+    <desc>#13 H.A.B.T. - Il bivio</desc>
+    <url>https://coord.info/GC7BW40</url>
+    <urlname>#13 H.A.B.T. - Il bivio</urlname>
+    <sym>Geocache</sym>
+    <type>INFO</type>
+    </wpt>
+  <wpt lat="45.064183" lon="7.029467">
+    <time>2017-09-03T00:00:00Z</time>
+    <name>GC7BW4R</name>
+    <desc>#16 H.A.B.T. - Porta della strada dell'Assietta</desc>
+    <url>https://coord.info/GC7BW4R</url>
+    <urlname>#16 H.A.B.T. - Porta della strada dell'Assietta</urlname>
+    <sym>Geocache</sym>
+    <type>INFO</type>
+    </wpt>
+  <wpt lat="45.06115" lon="7.0512">
+    <time>2017-09-03T00:00:00Z</time>
+    <name>GC7BW53</name>
+    <desc>#17 H.A.B.T. - Incrocio</desc>
+    <url>https://coord.info/GC7BW53</url>
+    <urlname>#17 H.A.B.T. - Incrocio</urlname>
+    <sym>Geocache</sym>
+    <type>INFO</type>
+    </wpt>
+  <wpt lat="45.0721" lon="7.0452">
+    <time>2017-09-03T00:00:00Z</time>
+    <name>GC7BW5N</name>
+    <desc>#19 H.A.B.T. - FINISH</desc>
+    <url>https://coord.info/GC7BW5N</url>
+    <urlname>#19 H.A.B.T. - FINISH</urlname>
+    <sym>Geocache</sym>
+    <type>INFO</type>
+    </wpt>
+</gpx>
